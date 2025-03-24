@@ -30,6 +30,17 @@ namespace Arrays
                         Console.Write(numbers + " ");
                     }
                     break;
+                case 2:
+                    foreach (int numbers in b)
+                    {
+                        string inn = Console.ReadLine();
+                        int numbers = int.Parse(inn);
+                    }
+                    foreach (int item in b)
+                    {
+                        Console.Write(numbers + " ");
+                    }
+                    break;
                 default:
                     break;
             }
